@@ -23,7 +23,7 @@
   </div>
   </div>
 
-  <div class="column">
+  <article class="columns">
     <div class="notification is-warning">
 
     <div class="message-header">
@@ -36,17 +36,17 @@
     </figure>
     </div>
     </div>
-  </div>
+  </article>
 
 </div>
-<div class="box">
+<article class="box">
   <h1 class="title">개의 종류</h1>
   <span v-for="dog in dogs" v-bind:key="dog" >
   <nuxt-link :to="'/dogs/' + dog" class="button is-dark"> <!--v bind 생략 가능 그러나 콜론은 남아있어야 함. !-->
     {{dog}}
   </nuxt-link> &nbsp;
   </span>
-</div>
+</article>
 
  </section>
 </template>

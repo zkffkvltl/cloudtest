@@ -1,8 +1,21 @@
 <template>
   <div>
+    <nav class = "navbar">
+      <div class="navbar-brand">
+        <nuxt-link to="/" class="navbar-item">dogi</nuxt-link>
+      </div>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <nuxt-link to="/about" class="navber-item">소개</nuxt-link>
+        </div>
+      </div>
+    </nav>
     <nuxt/>
+  <footer class="footer has-text-centered">
+    <P>2018.MOKWON</P>
+  </footer>
   </div>
-</template>
+  </template>
 
 <style>
 html {

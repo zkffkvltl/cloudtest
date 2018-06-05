@@ -18,7 +18,10 @@
 
 <script>
 import myBarChart from '~/plugins/myBarChart';
-if(process.client)
-    myBarChart('chartArea');
+export default {
+    mounted(){
+    if(process.client) {myBarChart('chartArea');}
+    }
+}
 </script>
 

@@ -2,7 +2,9 @@
   <div>
     <nav class = "navbar">
       <div class="navbar-brand">
-        <nuxt-link to="/" class="navbar-item">dogi</nuxt-link>
+        <figure class="image is-64x64">
+          <img src="~static/dogpaw.png" alt="">
+        </figure>
       </div>
       <div class="navbar-menu is-active">
         <div class="navbar-end">
@@ -13,7 +15,10 @@
     </nav>
     <nuxt/>
   <footer class="footer has-text-centered">
-    <P>2018.MOKWON</P>
+    <div>
+        <figure class="image is-32x32">
+         <img src="~assets/dog.png" alt="">
+       </figure>2018.MOKWON</div>
   </footer>
   </div>
   </template>
